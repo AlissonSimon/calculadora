@@ -15,7 +15,7 @@ function criaCalculadora() {
             })
         },
 
-        clearDislay() {
+        clearDisplay() {
             this.display.value = '';
         },
 
@@ -44,7 +44,7 @@ function criaCalculadora() {
             }
 
             if (el.classList.contains('btn-clear')) {
-                this.clearDislay();
+                this.clearDisplay();
             }
 
             if (el.classList.contains('btn-del')) {
